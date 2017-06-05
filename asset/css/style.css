@@ -1,0 +1,14 @@
+@media (min-width: 535px) and (max-width: 824px) {
+    [class*="col-"] {
+    width: 100%;
+    }
+
+    body {
+       position: relative;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+    }
+}
