@@ -4,11 +4,7 @@
     }
 
     body {
-       position: relative;
-    }
-
-    img {
-        display: flex;
-        justify-content: center;
-    }
+       margin:0;
+       padding:0;
+}
 }

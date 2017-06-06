@@ -1,1 +1,10 @@
-media.css
+@media (min-width: 200px) and (max-width: 534px) {
+    [class*="col-"] {
+    width: 100%;
+    }
+
+    body {
+        margin:0;
+        padding:0;
+    }
+}
