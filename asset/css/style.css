@@ -1,16 +1,21 @@
-@media (min-width: 535px) and (max-width: 824px) {
-    [class*="col-"] {
-    width: 100%;
-    }
-
-    body {
-       margin:0;
-       padding:0;
-    }
-    .background-image {
-        background-image: url("../img/maxresdefault.jpg");
-        width:100%;
-        margin:0px auto;
-    }
-
+body {
+    margin:0;
+    padding:0;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.fondo {
+    background-image: url(../img/Landscape.jpg);
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+

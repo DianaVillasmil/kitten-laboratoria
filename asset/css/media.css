@@ -1,17 +1,22 @@
-@media (min-width: 200px) and (max-width: 534px) {
-    [class*="col-"] {
-    width: 100%;
-    }
-
-    body {
-        margin:0;
-        padding:0;
-    }
-
-    .background-image {
+@media (min-width: 535px) and (max-width: 824px) {
+   
+    .fondo{
         background-image: url("../img/dawn.png");
-        width:100%;
-        margin:0px auto;
     }
+
+}
+
+
+
+@media (min-width: 200px) and (max-width: 534px) {
+
+
+   
+     .fondo {
+        background-image: url("../img/maxresdefault.jpg");
+        /*width:100%;
+        margin:0px auto;*/
+    }
+
 
 }
