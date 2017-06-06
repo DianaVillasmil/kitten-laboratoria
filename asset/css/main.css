@@ -3,8 +3,13 @@ body {
         padding:0;
     }
 
-.flex-container{
+.backgroud-image {
+    background-image: url("../img/Landscape.jpg");
     width:100%;
     max-width:1000px;
     margin:0px auto;
+}
+
+.flex-container{
+    display: flex;
 }
